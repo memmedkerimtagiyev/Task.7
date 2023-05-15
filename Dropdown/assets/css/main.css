@@ -102,6 +102,9 @@ nav .nav-container .nav-list #nav-conten-list #dropOne:hover {
 nav .nav-container .nav-list #nav-conten-list #dropOne .dropOne-list li {
   padding: 10px;
 }
+nav .nav-container .nav-list #nav-conten-list #dropOne .dropOne-list li:hover {
+  background-color: #f2f2f2;
+}
 nav .nav-container .nav-list #nav-conten-list #dropOne .dropOne-list .drop2-li:hover #dropTwo {
   opacity: 1;
   height: max-content;
@@ -166,7 +169,7 @@ nav .nav-container .nav-list #nav-conten-list #dropOne .dropOne-list #dropTwo {
   border: 1px solid red;
   overflow: hidden;
   height: 0;
-  transition: 2s;
+  transition: 1s;
 }
 #responsive-list #nav-resp-conten-list .drop1-li-res #dropOne-res .dropOne-list-res li a {
   font-size: 15px;
@@ -181,13 +184,23 @@ nav .nav-container .nav-list #nav-conten-list #dropOne .dropOne-list #dropTwo {
   transition: 0.5s;
 }
 #responsive-list #nav-resp-conten-list .drop1-li-res #dropOne-res .dropOne-list-res .drop2-li-res #dropTwo-res {
+  border: solid firebrick;
   margin-left: 20px;
   overflow: hidden;
   height: 0;
+  transition: 1s;
 }
 
-.open {
-  height: 100px !important;
+.open1 {
+  height: 155px !important;
+}
+
+.open2 {
+  height: 130px !important;
+}
+
+.open3 {
+  height: 100% !important;
 }
 
 .transform {

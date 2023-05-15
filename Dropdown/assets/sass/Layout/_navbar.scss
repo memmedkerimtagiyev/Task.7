@@ -67,6 +67,7 @@ nav {
                         padding: 10px;
                         color: black;
                     }
+                   
                 }
 
                 .drop1-li {
@@ -96,16 +97,21 @@ nav {
                     position: absolute;
                     z-index: 1;
                     background-color: white;
+
                     &:hover {
                         overflow: visible;
                     }
+
                     .dropOne-list {
                         li {
                             padding: 10px;
+                            &:hover{
+                                background-color: #f2f2f2;
+                            }
                         }
 
                         .drop2-li {
-                            
+
                             &:hover #dropTwo {
                                 opacity: 1;
                                 height: max-content;
@@ -197,10 +203,10 @@ nav {
 
             #dropOne-res {
                 margin-left: 20px;
-                    border: 1px solid red;
+                border: 1px solid red;
                 overflow: hidden;
                 height: 0;
-                transition: 2s;
+                transition: 1s;
 
                 .dropOne-list-res {
                     li {
@@ -222,9 +228,11 @@ nav {
                         }
 
                         #dropTwo-res {
+                            border: solid firebrick;
                             margin-left: 20px;
                             overflow: hidden;
                             height: 0;
+                            transition: 1s;
                         }
                     }
                 }
@@ -235,9 +243,19 @@ nav {
 
 }
 
-.open {
-    height: 100px !important;
+.open1 {
+    height: 155px !important;
 }
+
+.open2 {
+    height: 130px !important;
+}
+
+.open3 {
+    height: 100% !important;
+}
+
+// Melim Sizin dediyiniz kimi ayri-ayri klas yazdim sabit ölçü ilə Birbaşa baxğlamaq olmur açilma sirasi ilede baglanmalidir
 
 .transform {
     transform: rotate(-180deg);

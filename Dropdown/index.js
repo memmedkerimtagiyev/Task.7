@@ -19,14 +19,19 @@ iconArrow.addEventListener(("click"), () => {
     console.log("salam")
     let add = document.getElementById("dropOne-res")
     console.log(add)
-    add.classList.toggle("open")
+    add.classList.toggle("open1")
     let trans=document.getElementById("ox")
     trans.classList.toggle("transform")
 })
 iconArrow2.addEventListener(("click"), () => {
-    console.log("salam")
+    console.log("salamm")
     let add2 = document.getElementById("dropTwo-res")
-    add2.classList.toggle("open")
+    add2.classList.toggle("open2")
+
+    let add = document.getElementById("dropOne-res")
+    console.log(add)
+    add.classList.toggle("open3")
+
     let trans2=document.getElementById("ox2")
     trans2.classList.toggle("transform")
 })
