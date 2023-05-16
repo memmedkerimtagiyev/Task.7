@@ -1,0 +1,105 @@
+#GetStarted{
+    padding: 100px 0;
+    background-color: orange;
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 30px;
+        h2{
+            font-size: 50px;
+        }
+        hr{
+            width: 100px;
+            border: none;
+            background-color: white;
+            height: 2px;
+        }
+        .btn{
+            cursor: pointer;
+            border: none;
+            border-radius: 20px;
+            width: 200px;
+            height: 60px;
+        }
+    }
+}
+#Pirncig {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 50px;
+            font-weight: 200;
+        }
+        .Pricing-text{
+            margin: 20px 0;
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .pricingBoxs {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .pricingBox {
+                border: 1px solid;
+                width: 300px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 30px;
+
+                .head {
+                    border: 1px solid;
+                    width: 100%;
+                    padding: 20px 0;
+                    background-color: #f2f2f2;
+
+                    h3 {
+                        font-size: 30px;
+
+                    }
+                }
+                .contet{
+                    .moni{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        span{
+                            font-size: 30px;
+                        }
+                    }
+                    p{
+                        font-size: 20px;
+                        padding: 5px 0;
+                    }
+                    button{
+                        margin: 20px 0;
+                        width: 230px ;
+                        height: 50px;
+                        color: blue;
+                        font-size: 16px;
+                        border: 1px solid blue;
+                        border-radius: 6px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
