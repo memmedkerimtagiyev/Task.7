@@ -1,0 +1,45 @@
+nav {
+    background-color: gray;
+
+    .container {
+        .nav-cont {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+
+            h2 {
+                color: white;
+                font-size: 30px;
+            }
+
+            .navList {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                li{
+                    a{
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+            .navBtns{
+                .btn-job{
+                    background-color: rgb(0,0,0,0);
+                    border: 2px solid white;
+                    color: white;
+                    height: 40px;
+                    width: 100px;
+                }
+                .log{
+                    background-color: green;
+                    color: white;
+                    height: 40px;
+                    width: 100px;
+                    border: none;
+                }
+            }
+        }
+    }
+}

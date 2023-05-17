@@ -1,0 +1,51 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#OurExportTeam {
+  .container {
+    .Boxs-OurExportTeam {
+      border: solid;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .Box-OurExportTeam {
+        padding: 20px 10px;
+        border-radius: 6px;
+        width: 300px;
+        border: solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        .Person-img {
+          overflow: hidden;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+
+          .img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .Person-text{
+          padding: 30px 0;
+          text-align: center;
+        }
+        .More-btn{
+          background-color: rgb(23, 69, 153);
+          width: 130px;
+          height: 50px;
+          border-radius: 6px;
+          color: white;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
