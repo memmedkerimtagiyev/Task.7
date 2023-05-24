@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+header nav {
+  padding: 100px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+header nav h1 {
+  color: white;
+  font-size: 30px;
+}
+header nav .barIcon {
+  border: solid;
+}
+header nav .barIcon i {
+  color: white;
+  font-size: 30px;
+}
+header .head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+header .head h1 {
+  max-width: 900px;
+  font-size: 80px;
+  color: white;
+}
+header .head p {
+  max-width: 900px;
+  color: white;
+  font-size: 40px;
+}
+header .head .btns .explore {
+  height: 50px;
+  background-color: #e61c5d;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+}
+header .head .btns .down {
+  color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 15px 30px;
+  letter-spacing: 2px;
+}
+header .head .btns .down:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  header .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header .head h1 {
+    font-size: 60px;
+  }
+  header .head p {
+    font-size: 30px;
+  }
+  header .head .btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  header .head .btns .explore {
+    width: 80%;
+  }
+  header .head .btns .down {
+    width: 80%;
+  }
+}
+.clickBarIcon {
+  opacity: 0;
+  z-index: -1;
+  transition: 500ms;
+  top: 0;
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+.clickBarIcon .XiconCont {
+  border: solid;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.clickBarIcon .XiconCont .Xicon {
+  margin-right: 20px;
+}
+.clickBarIcon .XiconCont .Xicon i {
+  font-size: 40px;
+}
+.clickBarIcon .container {
+  display: flex;
+  justify-content: space-between;
+}
+.clickBarIcon .container .navList ul li {
+  margin: 30px 0;
+  font-size: 50px;
+}
+.clickBarIcon .container .infoContactConnect {
+  display: flex;
+  gap: 60px;
+}
+.clickBarIcon .container .infoContactConnect .infoContact h3 {
+  margin: 40px 0;
+}
+.clickBarIcon .container .infoContactConnect .infoContact ul li {
+  margin: 40px 0;
+}
+.clickBarIcon .container .infoContactConnect .infoConnect h3 {
+  margin: 40px 0;
+}
+.clickBarIcon .container .infoContactConnect .infoConnect ul li {
+  margin: 20px 0;
+}
+
+.barIconNav {
+  opacity: 1;
+  z-index: 1;
+}
+
+#YouCanVisit {
+  margin: 100px 0;
+}
+#YouCanVisit .container h3 {
+  margin: 50px 0;
+  opacity: 0.5;
+}
+#YouCanVisit .container .VisitCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#YouCanVisit .container .VisitCards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#YouCanVisit .container .VisitCards .card img {
+  max-width: 320px;
+}
+#YouCanVisit .container .VisitCards .card a {
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+}
+#YouCanVisit .container .VisitCards .card .ulduzVeSay {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#YouCanVisit .container .VisitCards .card .ulduzVeSay .say {
+  opacity: 0.5;
+}
+#YouCanVisit .container .VisitCards .card .ulduzVeSay .star i {
+  color: #e61c5d;
+}/*# sourceMappingURL=main.css.map */

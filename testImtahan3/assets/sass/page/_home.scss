@@ -1,0 +1,43 @@
+#YouCanVisit {
+    margin: 100px 0;
+
+    .container {
+        h3 {
+            margin: 50px 0;
+            opacity: 0.5;
+        }
+        .VisitCards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .card{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                img{
+                    max-width: 320px;
+                }
+                a{
+                    color: black;
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+                .ulduzVeSay{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    .say{
+                        opacity: 0.5;
+                    }
+                    .star{
+                       
+                        i{
+                            // background-color: #e61c5d;
+                            color: #e61c5d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
