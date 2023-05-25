@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -174,7 +174,7 @@ header .head .btns .down:hover {
   gap: 20px;
 }
 #YouCanVisit .container .VisitCards .card img {
-  max-width: 320px;
+  max-width: 280px;
 }
 #YouCanVisit .container .VisitCards .card a {
   color: black;
@@ -191,4 +191,48 @@ header .head .btns .down:hover {
 }
 #YouCanVisit .container .VisitCards .card .ulduzVeSay .star i {
   color: #e61c5d;
+}
+
+#RecentBlog {
+  padding: 200px 0;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+}
+#RecentBlog .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#RecentBlog .container h1 {
+  font-size: 70px;
+}
+#RecentBlog .container .head-text {
+  max-width: 800px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.5;
+}
+#RecentBlog .container .recentCards {
+  border: solid;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#RecentBlog .container .recentCards .recentCard {
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+#RecentBlog .container .recentCards .recentCard img {
+  width: 100%;
+}
+#RecentBlog .container .recentCards .recentCard span {
+  opacity: 0.5;
+  margin: 20px 0px 10px 20px;
+}
+#RecentBlog .container .recentCards .recentCard p {
+  font-size: 25px;
+  margin: 10px 0 20px 20px;
+  max-width: 330px;
 }/*# sourceMappingURL=main.css.map */
