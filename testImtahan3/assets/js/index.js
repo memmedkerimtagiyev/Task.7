@@ -31,11 +31,11 @@ fetch("./assets/json/index.json")
 
 
       recentCard.className = "recentCard";
-      foto.src = "img";
+      foto.tagName = "img";
       paraqraf.tagName = "p";
       tarix.tagName = "span";
 
-      foto.innerText = element.img;
+      foto.src = element.img;
       tarix.innerText=element.date
       paraqraf.innerText=element.ressons
     });
