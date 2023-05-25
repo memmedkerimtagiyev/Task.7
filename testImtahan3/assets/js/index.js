@@ -29,8 +29,9 @@ fetch("./assets/json/index.json")
       recentCard.appendChild(paraqraf);
       recentCards.appendChild(recentCard);
 
+
       recentCard.className = "recentCard";
-      foto.tagName = "img";
+      foto.src = "img";
       paraqraf.tagName = "p";
       tarix.tagName = "span";
 

@@ -1,0 +1,39 @@
+#FEATURED{
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .featuredCards{
+            border: 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            .featCard{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .CardContent{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    .photo{
+                        width: 450px;
+                    }
+                    .rooms{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        .room{
+                            img{
+                               width: 30px; 
+                            }
+                            p{
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

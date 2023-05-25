@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("https://preview.colorlib.com/theme/theestate/images/home_slider_bcg.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+header nav {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+header nav .container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .container .estate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+header nav .container .estate img {
+  width: 100px;
+}
+header nav .container .estate h1 {
+  color: white;
+  font-size: 30px;
+}
+header nav .container .navList ul {
+  display: flex;
+  gap: 30px;
+}
+header nav .container .navList ul li {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+header nav .container .phone {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: #fd784f;
+  padding: 20px 40px;
+}
+
+#FEATURED .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#FEATURED .container .featuredCards {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#FEATURED .container .featuredCards .featCard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+#FEATURED .container .featuredCards .featCard .CardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#FEATURED .container .featuredCards .featCard .CardContent .photo {
+  width: 450px;
+}
+#FEATURED .container .featuredCards .featCard .CardContent .rooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#FEATURED .container .featuredCards .featCard .CardContent .rooms .room img {
+  width: 30px;
+}/*# sourceMappingURL=main.css.map */
